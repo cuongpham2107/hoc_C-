@@ -1,24 +1,33 @@
-﻿using System;
-
-namespace generic_example
-{
-    class Program
-    {
-        static void Swap(ref int x,ref int y){
-            int t;
-            t = x;
-            x = y;
-            y = t;
-        }
-        static void Main(string[] args)
+﻿namespace generic_example{
+    class Program{
+        class Sanpham<A>
         {
-            int a = 5;
-            int b = 45;
+            A ID;
+            public void SetID(A _id){
+                this.ID = _id;
+            }
+            public void PrintInfo(){
+                System.Console.WriteLine($"ID = {this.ID}");
+            }
+        }
 
-            System.Console.WriteLine($"a = {a}, b = {b}");
+        static void Main(string[] args){
+            // Sanpham<int> sanpham1 = new Sanpham<int>();
+            // sanpham1.SetID(123);
+            // sanpham1.PrintInfo();
+            
 
-            Swap(ref a, ref b);
-            System.Console.WriteLine($"a = {a}, b = {b}");
+            // Sanpham<string> sanpham2 = new Sanpham<string>();
+            // sanpham2.SetID("abc123");
+            // sanpham2.PrintInfo();
+            List<int> list1 = new List<int>();
+            List<string> list2 = new List<string>();
+
+            Stack<int> stack = new Stack<int>();//vào sau ra trước
+
+            Queue<int> queue = new Queue<int>();//vào trước ra trước
+
+
 
         }
     }
