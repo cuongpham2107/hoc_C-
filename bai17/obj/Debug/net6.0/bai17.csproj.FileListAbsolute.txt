@@ -1,0 +1,15 @@
+C:\Users\cuong\source\repos\Hoc_C#\bai17\bin\Debug\net6.0\bai17.exe
+C:\Users\cuong\source\repos\Hoc_C#\bai17\bin\Debug\net6.0\bai17.deps.json
+C:\Users\cuong\source\repos\Hoc_C#\bai17\bin\Debug\net6.0\bai17.runtimeconfig.json
+C:\Users\cuong\source\repos\Hoc_C#\bai17\bin\Debug\net6.0\bai17.dll
+C:\Users\cuong\source\repos\Hoc_C#\bai17\bin\Debug\net6.0\bai17.pdb
+C:\Users\cuong\source\repos\Hoc_C#\bai17\obj\Debug\net6.0\bai17.csproj.AssemblyReference.cache
+C:\Users\cuong\source\repos\Hoc_C#\bai17\obj\Debug\net6.0\bai17.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cuong\source\repos\Hoc_C#\bai17\obj\Debug\net6.0\bai17.AssemblyInfoInputs.cache
+C:\Users\cuong\source\repos\Hoc_C#\bai17\obj\Debug\net6.0\bai17.AssemblyInfo.cs
+C:\Users\cuong\source\repos\Hoc_C#\bai17\obj\Debug\net6.0\bai17.csproj.CoreCompileInputs.cache
+C:\Users\cuong\source\repos\Hoc_C#\bai17\obj\Debug\net6.0\bai17.dll
+C:\Users\cuong\source\repos\Hoc_C#\bai17\obj\Debug\net6.0\refint\bai17.dll
+C:\Users\cuong\source\repos\Hoc_C#\bai17\obj\Debug\net6.0\bai17.pdb
+C:\Users\cuong\source\repos\Hoc_C#\bai17\obj\Debug\net6.0\bai17.genruntimeconfig.cache
+C:\Users\cuong\source\repos\Hoc_C#\bai17\obj\Debug\net6.0\ref\bai17.dll
