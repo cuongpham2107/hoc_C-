@@ -1,0 +1,15 @@
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai18\bin\Debug\net6.0\bai18.exe
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai18\bin\Debug\net6.0\bai18.deps.json
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai18\bin\Debug\net6.0\bai18.runtimeconfig.json
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai18\bin\Debug\net6.0\bai18.dll
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai18\bin\Debug\net6.0\bai18.pdb
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai18\obj\Debug\net6.0\bai18.csproj.AssemblyReference.cache
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai18\obj\Debug\net6.0\bai18.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai18\obj\Debug\net6.0\bai18.AssemblyInfoInputs.cache
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai18\obj\Debug\net6.0\bai18.AssemblyInfo.cs
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai18\obj\Debug\net6.0\bai18.csproj.CoreCompileInputs.cache
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai18\obj\Debug\net6.0\bai18.dll
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai18\obj\Debug\net6.0\refint\bai18.dll
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai18\obj\Debug\net6.0\bai18.pdb
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai18\obj\Debug\net6.0\bai18.genruntimeconfig.cache
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai18\obj\Debug\net6.0\ref\bai18.dll
