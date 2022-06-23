@@ -36,6 +36,9 @@ namespace bai25
                 Register("Pham Manh Cuong", 15);
             }
             catch(NameEmptyException nee)
+
+            
+
             {
                 Console.WriteLine(nee.Message);
                 
