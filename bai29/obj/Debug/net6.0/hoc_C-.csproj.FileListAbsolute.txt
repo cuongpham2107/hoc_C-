@@ -1,0 +1,15 @@
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai29\bin\Debug\net6.0\hoc_C-.exe
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai29\bin\Debug\net6.0\hoc_C-.deps.json
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai29\bin\Debug\net6.0\hoc_C-.runtimeconfig.json
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai29\bin\Debug\net6.0\hoc_C-.dll
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai29\bin\Debug\net6.0\hoc_C-.pdb
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai29\obj\Debug\net6.0\hoc_C-.csproj.AssemblyReference.cache
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai29\obj\Debug\net6.0\hoc_C-.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai29\obj\Debug\net6.0\hoc_C-.AssemblyInfoInputs.cache
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai29\obj\Debug\net6.0\hoc_C-.AssemblyInfo.cs
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai29\obj\Debug\net6.0\hoc_C-.csproj.CoreCompileInputs.cache
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai29\obj\Debug\net6.0\hoc_C-.dll
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai29\obj\Debug\net6.0\refint\hoc_C-.dll
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai29\obj\Debug\net6.0\hoc_C-.pdb
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai29\obj\Debug\net6.0\hoc_C-.genruntimeconfig.cache
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai29\obj\Debug\net6.0\ref\hoc_C-.dll

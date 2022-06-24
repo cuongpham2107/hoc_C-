@@ -1,0 +1,15 @@
+C:\Users\Bachtuhoa\source\repos\hoc_C-\vidu_Async\obj\Debug\net6.0\vidu_Async.csproj.AssemblyReference.cache
+C:\Users\Bachtuhoa\source\repos\hoc_C-\vidu_Async\obj\Debug\net6.0\vidu_Async.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bachtuhoa\source\repos\hoc_C-\vidu_Async\obj\Debug\net6.0\vidu_Async.AssemblyInfoInputs.cache
+C:\Users\Bachtuhoa\source\repos\hoc_C-\vidu_Async\obj\Debug\net6.0\vidu_Async.AssemblyInfo.cs
+C:\Users\Bachtuhoa\source\repos\hoc_C-\vidu_Async\obj\Debug\net6.0\vidu_Async.csproj.CoreCompileInputs.cache
+C:\Users\Bachtuhoa\source\repos\hoc_C-\vidu_Async\bin\Debug\net6.0\vidu_Async.exe
+C:\Users\Bachtuhoa\source\repos\hoc_C-\vidu_Async\bin\Debug\net6.0\vidu_Async.deps.json
+C:\Users\Bachtuhoa\source\repos\hoc_C-\vidu_Async\bin\Debug\net6.0\vidu_Async.runtimeconfig.json
+C:\Users\Bachtuhoa\source\repos\hoc_C-\vidu_Async\bin\Debug\net6.0\vidu_Async.dll
+C:\Users\Bachtuhoa\source\repos\hoc_C-\vidu_Async\bin\Debug\net6.0\vidu_Async.pdb
+C:\Users\Bachtuhoa\source\repos\hoc_C-\vidu_Async\obj\Debug\net6.0\vidu_Async.dll
+C:\Users\Bachtuhoa\source\repos\hoc_C-\vidu_Async\obj\Debug\net6.0\refint\vidu_Async.dll
+C:\Users\Bachtuhoa\source\repos\hoc_C-\vidu_Async\obj\Debug\net6.0\vidu_Async.pdb
+C:\Users\Bachtuhoa\source\repos\hoc_C-\vidu_Async\obj\Debug\net6.0\vidu_Async.genruntimeconfig.cache
+C:\Users\Bachtuhoa\source\repos\hoc_C-\vidu_Async\obj\Debug\net6.0\ref\vidu_Async.dll
