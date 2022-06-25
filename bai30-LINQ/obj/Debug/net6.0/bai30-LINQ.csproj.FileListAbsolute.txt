@@ -1,0 +1,15 @@
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai30-LINQ\bin\Debug\net6.0\bai30-LINQ.exe
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai30-LINQ\bin\Debug\net6.0\bai30-LINQ.deps.json
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai30-LINQ\bin\Debug\net6.0\bai30-LINQ.runtimeconfig.json
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai30-LINQ\bin\Debug\net6.0\bai30-LINQ.dll
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai30-LINQ\bin\Debug\net6.0\bai30-LINQ.pdb
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai30-LINQ\obj\Debug\net6.0\bai30-LINQ.csproj.AssemblyReference.cache
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai30-LINQ\obj\Debug\net6.0\bai30-LINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai30-LINQ\obj\Debug\net6.0\bai30-LINQ.AssemblyInfoInputs.cache
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai30-LINQ\obj\Debug\net6.0\bai30-LINQ.AssemblyInfo.cs
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai30-LINQ\obj\Debug\net6.0\bai30-LINQ.csproj.CoreCompileInputs.cache
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai30-LINQ\obj\Debug\net6.0\bai30-LINQ.dll
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai30-LINQ\obj\Debug\net6.0\refint\bai30-LINQ.dll
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai30-LINQ\obj\Debug\net6.0\bai30-LINQ.pdb
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai30-LINQ\obj\Debug\net6.0\bai30-LINQ.genruntimeconfig.cache
+C:\Users\Bachtuhoa\source\repos\hoc_C-\bai30-LINQ\obj\Debug\net6.0\ref\bai30-LINQ.dll
