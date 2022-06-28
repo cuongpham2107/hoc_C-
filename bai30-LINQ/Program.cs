@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.Xml.Linq;
+using System;
 using System.Linq;
 using System.Collections.Generic;
 
@@ -46,7 +47,7 @@ namespace LINQ
             var products = new List<Product>()
             {
                 new Product( 1, "Iphone 12 ProMax",       19000000,new string[]{"Xám", "Xanh"},             12, 1),
-                new Product( 2, "SamSung Note 20 ",       30000000,new string[]{"Xám", "Đen"},              12, 2),
+                new Product( 2, "SamSung Note 20 ",       30000000,new string[]{"Xanh", "Đen"},              12, 2),
                 new Product( 3, "Nokia 12 ",              20000000,new string[]{"Đen", "Xanh"},             12, 3),
                 new Product( 4, "Iphone 13 ProMax",       20000000,new string[]{"Xám", "Nâu"},              12, 1),
                 new Product( 5, "Iphone 12 ",             20000000,new string[]{"Đen", "Xám", "Vàng"},      12, 4),
@@ -271,22 +272,22 @@ namespace LINQ
             #endregion
 
             #region VD In ra ten san phẩm, tên thương hiệu, có giá (20000000 - 30000000) và giá giảm dần
-            Console.WriteLine($"VD 1: ");
+            // Console.WriteLine($"VD 1: ");
             
-            products.Where(p=>p.Price >= 20000000 && p.Price <= 30000000)
-                    .OrderByDescending(p=> p.Price)
-                    .Join(brands, p => p.Brand, b=> b.ID,
-                        (sanpham, thuonghieu) => {
-                            return new {
-                                TenSP = sanpham.Name,
-                                TenTH = thuonghieu.Name,
-                                Gia = sanpham.Price,
-                            };
-                        }
-                    ).ToList().ForEach(info => {
-                        Console.WriteLine($"{info.TenSP , 15} {info.TenTH , 15} {info.Gia , 10}");
-                        //{info.TenTH , 15} lấy ra TenTH và trình bày trong khoảng 15 kí tự
-                    });
+            // products.Where(p=>p.Price >= 20000000 && p.Price <= 30000000)
+            //         .OrderByDescending(p=> p.Price)
+            //         .Join(brands, p => p.Brand, b=> b.ID,
+            //             (sanpham, thuonghieu) => {
+            //                 return new {
+            //                     TenSP = sanpham.Name,
+            //                     TenTH = thuonghieu.Name,
+            //                     Gia = sanpham.Price,
+            //                 };
+            //             }
+            //         ).ToList().ForEach(info => {
+            //             Console.WriteLine($"{info.TenSP , 15} {info.TenTH , 15} {info.Gia , 10}");
+            //             //{info.TenTH , 15} lấy ra TenTH và trình bày trong khoảng 15 kí tự
+            //         });
 
             /*
                 1) Xác định nguồn dữ liệu: from tenphantu in IEnumerables: mảng, danh sách"LIST",
@@ -294,9 +295,9 @@ namespace LINQ
                 2) Lấy dữ liệu: select, group by, ...
             */
 
-            var query = from p in products select p.Name;
+            // var query = from p in products select p.Name;
             //cách 1:
-            query.ToList().ForEach(name => Console.WriteLine(name));
+            // query.ToList().ForEach(name => Console.WriteLine(name));
             //cách 2:
             // foreach (var item in query)
             // {
@@ -310,31 +311,139 @@ namespace LINQ
             #endregion
 
             #region Truy vấn Linq
+            // var qr = from a in products 
+            //                 select 
+            //                     // $"{a.Name} + {a.Price}";
+            //                     new{
+            //                         Ten = a.Name,
+            //                         Gia = a.Price,
+            //                         Abc = "ahsdjkbasld"
+            //                     };
 
+            // qr.ToList().ForEach(p => Console.WriteLine($"{p}"));
+
+            // var query = from product in products
+            //                         select new {
+            //                             Ten = product.Name,
+            //                             Gia = product.Price,
+
+            //                         };
+            //     query.ToList().ForEach(abc => Console.WriteLine($"{abc}"));
             #endregion
 
             #region Lọc dữ liệu với mệnh đề Where
-
+            // var qr = from product in products
+            //         where product.Price == 20000000 
+            //         select new {
+            //             Ten = product.Name,
+            //             Gia = product.Price,
+                        
+            //         };
+            // qr.ToList().ForEach(abc =>
+            // {
+            //     Console.WriteLine($"{abc.Ten}    -    {abc.Gia}");
+            // });        
             #endregion
 
             #region mệnh đề Form trong Linq
+            // var qr = from product in products
+            //             from color in product.Colors
 
+            //             where product.Price >= 20000000 && color == "Xanh"
+            //             select new {
+            //                 Ten = product.Name,
+            //                 Gia = product.Price,
+            //                 Cacmau = product.Colors,
+            //             };
+
+            // qr.ToList().ForEach(abc =>
+            // {
+            //     Console.WriteLine($"{abc.Ten} - {abc.Gia} - {string.Join(',',abc.Cacmau)}");
+                
+              
+
+            // });        
             #endregion
 
             #region Sắp xếp với mệnh đề orderBy 
+            // var qr = from product in products 
+            //             from color in product.Colors
+            //             where product.Price >= 20000000 && color == "Xanh"
+            //             orderby product.Price ascending
+            //             select new {
+            //                 Ten = product.Name,
+            //                 Gia = product.Price,
+            //                 Cacmau = product.Colors,
+            //             };
+            //     qr.ToList().ForEach(abc => {
+            //         Console.WriteLine($"{abc.Ten} - {abc.Gia} - {string.Join(',', abc.Cacmau)}");
+                    
+            //     });
 
             #endregion
 
-            #region Nhóm kết quả với groupBy
+            #region Nhóm kết quả với groupBy 
+            
+            // var query = from p in products 
+            //             group p by p.Price into gp
+            //             orderby gp.Key
+            //             select gp;
 
+            // query.ToList().ForEach(gr => {
+            //     Console.WriteLine(gr.Key);
+            //     gr.ToList().ForEach(p => Console.WriteLine(p));
+                
+            // });
             #endregion
 
             #region Biến trong Linq, Từ khoá let
+            //Đối tượng:
+            //Giá
+            //Các sản phẩm
+            //Số lượng
 
+            // var query = from p in products
+            //             group p by p.Price into gr
+            //             orderby gr.Key
+            //             let sl = "So luong là:" + gr.Count()
+            //             select new {
+            //                 Gia = gr.Key,
+            //                 Cacsanpham = gr.ToList(),
+            //                 Soluong = sl,
+            //             };
+            // query.ToList().ForEach(i => {
+            //     Console.WriteLine(i.Gia);
+            //     Console.WriteLine(i.Soluong);
+            //     i.Cacsanpham.ForEach(p=>Console.WriteLine(p));
+            // });
             #endregion
 
-            #region Kết hợp với John
+            #region Kết hợp với Join
 
+            //in ra nhưng sản phẩm có thương hiệu
+            // var kq = from p in products 
+            //         join b in brands on p.Brand equals b.ID 
+            //         select new {
+            //             Ten = p.Name,
+            //             Gia = p.Price,
+            //             ThuongHieu = b.Name,
+            //         };
+            // kq.ToList().ForEach(o=>{
+            //     Console.WriteLine($"{ o.Ten } {o.Gia} {o.ThuongHieu}");             
+            // });
+
+            //in ra cả những sản phẩm không có thương hiệu
+            var kq1 = from p in products
+                        join b in brands on p.Brand equals b.ID into T
+                        from b in T.DefaultIfEmpty()
+                        select new {
+                            Ten = p.Name,
+                            Gia = p.Price,
+                            ThuongHieu = b != null ? b.Name : "No Brand",
+                        };
+            kq1.ToList().ForEach(a => {
+                Console.WriteLine($"{ a.Ten ,10} {a.ThuongHieu,15}    {a.Gia,5}");  
+            });
             #endregion
 
 

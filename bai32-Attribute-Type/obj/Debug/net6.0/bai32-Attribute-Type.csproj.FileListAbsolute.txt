@@ -1,0 +1,15 @@
+C:\Users\cuong\source\repos\hoc_C-\bai32-Attribute-Type\bin\Debug\net6.0\bai32-Attribute-Type.exe
+C:\Users\cuong\source\repos\hoc_C-\bai32-Attribute-Type\bin\Debug\net6.0\bai32-Attribute-Type.deps.json
+C:\Users\cuong\source\repos\hoc_C-\bai32-Attribute-Type\bin\Debug\net6.0\bai32-Attribute-Type.runtimeconfig.json
+C:\Users\cuong\source\repos\hoc_C-\bai32-Attribute-Type\bin\Debug\net6.0\bai32-Attribute-Type.dll
+C:\Users\cuong\source\repos\hoc_C-\bai32-Attribute-Type\bin\Debug\net6.0\bai32-Attribute-Type.pdb
+C:\Users\cuong\source\repos\hoc_C-\bai32-Attribute-Type\obj\Debug\net6.0\bai32-Attribute-Type.csproj.AssemblyReference.cache
+C:\Users\cuong\source\repos\hoc_C-\bai32-Attribute-Type\obj\Debug\net6.0\bai32-Attribute-Type.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cuong\source\repos\hoc_C-\bai32-Attribute-Type\obj\Debug\net6.0\bai32-Attribute-Type.AssemblyInfoInputs.cache
+C:\Users\cuong\source\repos\hoc_C-\bai32-Attribute-Type\obj\Debug\net6.0\bai32-Attribute-Type.AssemblyInfo.cs
+C:\Users\cuong\source\repos\hoc_C-\bai32-Attribute-Type\obj\Debug\net6.0\bai32-Attribute-Type.csproj.CoreCompileInputs.cache
+C:\Users\cuong\source\repos\hoc_C-\bai32-Attribute-Type\obj\Debug\net6.0\bai32-Attribute-Type.dll
+C:\Users\cuong\source\repos\hoc_C-\bai32-Attribute-Type\obj\Debug\net6.0\refint\bai32-Attribute-Type.dll
+C:\Users\cuong\source\repos\hoc_C-\bai32-Attribute-Type\obj\Debug\net6.0\bai32-Attribute-Type.pdb
+C:\Users\cuong\source\repos\hoc_C-\bai32-Attribute-Type\obj\Debug\net6.0\bai32-Attribute-Type.genruntimeconfig.cache
+C:\Users\cuong\source\repos\hoc_C-\bai32-Attribute-Type\obj\Debug\net6.0\ref\bai32-Attribute-Type.dll

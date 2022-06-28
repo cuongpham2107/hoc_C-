@@ -1,0 +1,15 @@
+C:\Users\cuong\source\repos\hoc_C-\hocC#-28-06-2022\bin\Debug\net6.0\hocC#-28-06-2022.exe
+C:\Users\cuong\source\repos\hoc_C-\hocC#-28-06-2022\bin\Debug\net6.0\hocC#-28-06-2022.deps.json
+C:\Users\cuong\source\repos\hoc_C-\hocC#-28-06-2022\bin\Debug\net6.0\hocC#-28-06-2022.runtimeconfig.json
+C:\Users\cuong\source\repos\hoc_C-\hocC#-28-06-2022\bin\Debug\net6.0\hocC#-28-06-2022.dll
+C:\Users\cuong\source\repos\hoc_C-\hocC#-28-06-2022\bin\Debug\net6.0\hocC#-28-06-2022.pdb
+C:\Users\cuong\source\repos\hoc_C-\hocC#-28-06-2022\obj\Debug\net6.0\hocC#-28-06-2022.csproj.AssemblyReference.cache
+C:\Users\cuong\source\repos\hoc_C-\hocC#-28-06-2022\obj\Debug\net6.0\hocC#-28-06-2022.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cuong\source\repos\hoc_C-\hocC#-28-06-2022\obj\Debug\net6.0\hocC#-28-06-2022.AssemblyInfoInputs.cache
+C:\Users\cuong\source\repos\hoc_C-\hocC#-28-06-2022\obj\Debug\net6.0\hocC#-28-06-2022.AssemblyInfo.cs
+C:\Users\cuong\source\repos\hoc_C-\hocC#-28-06-2022\obj\Debug\net6.0\hocC#-28-06-2022.csproj.CoreCompileInputs.cache
+C:\Users\cuong\source\repos\hoc_C-\hocC#-28-06-2022\obj\Debug\net6.0\hocC#-28-06-2022.dll
+C:\Users\cuong\source\repos\hoc_C-\hocC#-28-06-2022\obj\Debug\net6.0\refint\hocC#-28-06-2022.dll
+C:\Users\cuong\source\repos\hoc_C-\hocC#-28-06-2022\obj\Debug\net6.0\hocC#-28-06-2022.pdb
+C:\Users\cuong\source\repos\hoc_C-\hocC#-28-06-2022\obj\Debug\net6.0\hocC#-28-06-2022.genruntimeconfig.cache
+C:\Users\cuong\source\repos\hoc_C-\hocC#-28-06-2022\obj\Debug\net6.0\ref\hocC#-28-06-2022.dll
