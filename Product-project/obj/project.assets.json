@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\cuong\\.nuget\\packages\\": {},
+    "C:\\Users\\Bachtuhoa\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cuong\\source\\repos\\hoc_C-\\Product-project\\Product-project.csproj",
+      "projectUniqueName": "C:\\Users\\Bachtuhoa\\source\\repos\\hoc_C-\\Product-project\\Product-project.csproj",
       "projectName": "Product-project",
-      "projectPath": "C:\\Users\\cuong\\source\\repos\\hoc_C-\\Product-project\\Product-project.csproj",
-      "packagesPath": "C:\\Users\\cuong\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cuong\\source\\repos\\hoc_C-\\Product-project\\obj\\",
+      "projectPath": "C:\\Users\\Bachtuhoa\\source\\repos\\hoc_C-\\Product-project\\Product-project.csproj",
+      "packagesPath": "C:\\Users\\Bachtuhoa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bachtuhoa\\source\\repos\\hoc_C-\\Product-project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
       ],
       "configFilePaths": [
-        "C:\\Users\\cuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bachtuhoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
