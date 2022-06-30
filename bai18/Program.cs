@@ -13,7 +13,7 @@ namespace bai18
 
             int? age;
             age = null; 
-            age =100;
+            age = 100;
             if(age != null){
                 int _age = (int)age;//ép kiểu age sang kiểu int
                 System.Console.WriteLine(_age);

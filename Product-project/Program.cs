@@ -22,9 +22,15 @@ namespace Product
                         case "create":
                             controller.Create();
                             break;
+                         case "list":
+                            controller.List();
+                            break;
+                        case "update":
+                            controller.Update(1);
+                            break;
                         default:
                             Console.WriteLine($"Unknown Command");
-                        
+                       
                             break;
                     }
                     

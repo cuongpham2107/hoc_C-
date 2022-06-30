@@ -8,7 +8,7 @@ namespace Product_project.Controllers
     {
         public void Single(int id)
         {
-            Product model = new Product(1, "Iphone 12 promax", 24000000, "iphone12promax.jpg", 1, DateTime.Now );
+            Product model = new Product();
             
             ProductSingleView view = new ProductSingleView(model);
 
@@ -19,6 +19,16 @@ namespace Product_project.Controllers
         {
             ProductCreateView view = new ProductCreateView();
 
+            view.Render();
+        }
+        public void List()
+        {
+            
+        }
+        public void Update(int id)
+        {
+            var model = new Product();
+            var view = new ProductUpdateView(model);
             view.Render();
         }
     }

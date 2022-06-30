@@ -12,31 +12,40 @@ namespace Product_project.Views
         public void Render()
         {
             WriteLine("Create a new Product", ConsoleColor.Green);
-
-            WriteLine("Ten san pham: ", ConsoleColor.Magenta);
-            string? name = Console.ReadLine();
-
-            WriteLine("Gia san pham: ", ConsoleColor.Magenta);
-            double price = double.Parse(Console.ReadLine());
-
-            WriteLine("Hinh anh san pham: ", ConsoleColor.Magenta);
-            string? image = Console.ReadLine();
-
-            WriteLine("So luong san pham: ", ConsoleColor.Magenta);
-            int? quantity = int.Parse(Console.ReadLine());
-
-            WriteLine("Thoi gian tao: ", ConsoleColor.Magenta);
+            string name = InputString("Ten san pham:");
+            int price = InputInt("Gia san pham:");
+            string image =  InputString("Hinh anh san pham:");
+            int quantity =InputInt("So luong san pham:");
             DateTime created_at = DateTime.Now;
-
             Console.WriteLine();
         }
 
-        private void WriteLine( string message, ConsoleColor color,bool resetColor = true)
+        private static void WriteLine( string message, ConsoleColor color,bool resetColor = true)
         {
             Console.ForegroundColor = color;
             Console.WriteLine(message);
             if(resetColor)
                 Console.ResetColor();
+        }
+        private static int InputInt(string label, ConsoleColor labelColor = ConsoleColor.Magenta, ConsoleColor valueColor = ConsoleColor.White)
+        {
+            while (true)
+            {
+                var str = InputString(label, labelColor, valueColor);
+                var result = int.TryParse(str, out int i);
+                if(result == true)
+                {
+                    return i;
+                }
+            }
+        }
+        private static string InputString(string label, ConsoleColor labelColor = ConsoleColor.Magenta, ConsoleColor valueColor = ConsoleColor.White)
+        {
+            WriteLine($"{label}", labelColor, false);
+            Console.ForegroundColor = valueColor;
+            string value = Console.ReadLine();
+            Console.ResetColor();
+            return value;
         }
     }
 }

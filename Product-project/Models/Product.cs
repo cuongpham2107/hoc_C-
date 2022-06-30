@@ -1,36 +1,56 @@
-
+﻿
 using System;
 
 namespace Product_project.Models
 {
     public class Product
     {
-        private int _id;
+        private int _id = 1;
         public int Id
         {
             get { return _id; }
-            set { _id = value; }
+            set 
+            {
+                if(value >= 1)
+                    _id = value;
+            }
         }
         
-        private string _name;
+        private string _name = "Iphone 12 promax";
         public string Name
         {
             get { return _name; }
-            set { _name = value; }
+            set 
+            {
+                if(!string.IsNullOrEmpty(value))_name = value;
+            }
         }
-        private double _price;
-        public double Price
+        private int _price = 20000000;
+        public int Price
         {
             get { return _price; }
             set { _price = value; }
         }
-        private string _image;
+        private string _image = "1.jpg";
         public string Image
         {
-            get { return _image; }
-            set { _image = value; }
+            get 
+            { 
+                return _image; 
+            }
+            set 
+            { 
+                if(System.IO.File.Exists(value))  _image = value ;//Nhận đường dẫn đúng
+            }
         }
-        private int _quantity;
+        public string ImageName
+        {
+            get 
+            { 
+                return System.IO.Path.GetFileName(_image);//trả lại file ngắn gọn
+            }
+        }
+        private int _quantity = 1;
         public int Quantity
         {
             get { return _quantity; }
@@ -42,15 +62,6 @@ namespace Product_project.Models
             get { return _created_at; }
             set { _created_at = value; }
         }
-        
-        public Product(int _id, string _name, double _price, string _image, int _quantity, DateTime _created_at){
-            Id = _id;
-            Name = _name;
-            Price = _price;
-            Image = _image;
-            Quantity = _quantity;
-            Created_at = _created_at;
-        }
-        
+
     }
 }

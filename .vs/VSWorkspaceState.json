@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Product-project",
+    "\\Product-project\\Controllers",
+    "\\Product-project\\Framework",
+    "\\Product-project\\Models",
+    "\\Product-project\\Views"
   ],
-  "SelectedNode": "\\C:\\Users\\Bachtuhoa\\Source\\Repos\\hoc_C-",
+  "SelectedNode": "\\Product-project",
   "PreviewInSolutionExplorer": false
 }
