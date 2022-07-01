@@ -2,7 +2,8 @@ using System;
 
 namespace Product_project.Views
 {
-    public class ProductCreateView
+    using Framework;
+    internal class ProductCreateView : ViewBase
     {
         public ProductCreateView()
         {

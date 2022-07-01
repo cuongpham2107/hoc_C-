@@ -5,35 +5,40 @@ using System;
 
 namespace Product_project.Views
 {
+    using Framework;
+    using global::Framework;
     using Models;
-    public class ProductSingleView
+    internal class ProductSingleView : ViewBase
     {
-        protected Product Model;//Biến này để lưu trữ thông tin cuốn sách cần hiển thị
+        //protected Product Model;
+        //Biến này để lưu trữ thông tin cuốn sách cần hiển thị
 
-        public ProductSingleView(Product model)
+        public ProductSingleView(Product model) : base(model) 
         {
-            Model = model;
+            
         }
 
         public void Render(){
             if(Model == null){
-                WriteLine("No Product Found. Sorry!", ConsoleColor.Red);
+                ViewHelp.WriteLine("No Product Found. Sorry!", ConsoleColor.Red);
                 return;
             }
-            
-            WriteLine(" Product Detail Information!",ConsoleColor.Green);
 
-            Console.WriteLine($"Ten san pham: {Model.Name}, Gia san pham: {Model.Price}, Hinh anh: {Model.Image}, So luong: {Model.Quantity}");
+            ViewHelp.WriteLine(" Product Detail Information!",ConsoleColor.Green);
+            var model = Model as Product; 
+            Console.WriteLine($"Ten san pham: {model.Name}, Gia san pham: {model.Price}, Hinh anh: {model.Image}, So luong: {model.Quantity}");
             
         }
         
-        protected void WriteLine(string message, ConsoleColor color)
+       
+        public void RenderToFile(string path)
         {
-            Console.ForegroundColor = color;
-            Console.WriteLine(message);
-            Console.ResetColor();
+            ViewHelp.WriteLine($"Lưu dữ liệu vào file'{path}'");
+            var json = Newtonsoft.Json.JsonConvert.SerializeObject(Model);
+            System.IO.File.WriteAllText(path, json);
+            ViewHelp.WriteLine("Done!");
         }
 
-        
+
     }
 }

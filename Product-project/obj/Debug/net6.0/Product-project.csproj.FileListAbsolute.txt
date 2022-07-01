@@ -13,3 +13,5 @@ C:\Users\Bachtuhoa\source\repos\hoc_C-\Product-project\obj\Debug\net6.0\refint\P
 C:\Users\Bachtuhoa\source\repos\hoc_C-\Product-project\obj\Debug\net6.0\Product-project.pdb
 C:\Users\Bachtuhoa\source\repos\hoc_C-\Product-project\obj\Debug\net6.0\Product-project.genruntimeconfig.cache
 C:\Users\Bachtuhoa\source\repos\hoc_C-\Product-project\obj\Debug\net6.0\ref\Product-project.dll
+C:\Users\Bachtuhoa\source\repos\hoc_C-\Product-project\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Bachtuhoa\source\repos\hoc_C-\Product-project\obj\Debug\net6.0\Product-project.csproj.CopyComplete
